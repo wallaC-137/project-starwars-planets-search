@@ -1,9 +1,16 @@
-import React from 'react';
 import './App.css';
+import Table from './components/Table';
+import TextFilter from './filters/TextFilter';
+import ThreeFilter from './filters/ThreeFilter';
 
 function App() {
   return (
-    <span>Hello, App!</span>
+    <div>
+      <TextFilter />
+      <ThreeFilter />
+      <Table />
+    </div>
+
   );
 }
 
