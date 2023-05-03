@@ -94,6 +94,6 @@ test('', async () => {
   )
 
   await waitFor(() => {
-    expect(screen.getByAltText(/tatooine/i)).toBe('a')
+    expect(screen.getByAltText(/tatooine/i)).toBeInTheDocument();
   })
 })
